@@ -92247,7 +92247,7 @@ j=t.N
 i=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*"],j,j)
 p=4
 s=7
-return A.v(A.aIg(A.eJ("https://gchamp.leadturtle.in/admin/otp/send",0,null),B.c4.kk(A.a7(["email",a],j,j)),i),$async$i5)
+return A.v(A.aIg(A.eJ("http://127.0.0.1:8000/admin/otp/send",0,null),B.c4.kk(A.a7(["email",a],j,j)),i),$async$i5)
 case 7:m=c
 k=n.r1(m)
 p=2
@@ -92274,7 +92274,7 @@ k=t.N
 j=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*"],k,k)
 p=4
 s=7
-return A.v(A.aIg(A.eJ("https://gchamp.leadturtle.in/admin/otp/verify",0,null),B.c4.kk(A.a7(["email",a.h(0,"email"),"otp",a.h(0,"otp")],k,t.z)),j),$async$mO)
+return A.v(A.aIg(A.eJ("http://127.0.0.1:8000/admin/otp/verify",0,null),B.c4.kk(A.a7(["email",a.h(0,"email"),"otp",a.h(0,"otp")],k,t.z)),j),$async$mO)
 case 7:n=c
 k=n
 l=B.c4.eP(0,A.aI3(A.aHD(k.e).c.a.h(0,"charset")).eP(0,k.w))
@@ -92303,7 +92303,7 @@ i=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*","Aut
 p=4
 A.et(a)
 s=7
-return A.v(A.aQg(A.eJ("https://gchamp.leadturtle.in/admin/"+a,0,null),i),$async$jV)
+return A.v(A.aQg(A.eJ("http://127.0.0.1:8000/admin/"+a,0,null),i),$async$jV)
 case 7:m=c
 k=n.r1(m)
 p=2
@@ -92330,7 +92330,7 @@ j=t.N
 i=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*"],j,j)
 p=4
 s=7
-return A.v(A.aQg(A.eJ("https://gchamp.leadturtle.in/user/"+a,0,null),i),$async$qh)
+return A.v(A.aQg(A.eJ("http://127.0.0.1:8000/user/"+a,0,null),i),$async$qh)
 case 7:m=c
 k=n.r1(m)
 p=2
@@ -92357,7 +92357,7 @@ j=t.N
 i=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*","Authorization","Bearer "+A.aDM()],j,j)
 p=4
 s=7
-return A.v(A.aIg(A.eJ("https://gchamp.leadturtle.in/admin/"+a,0,null),B.c4.kk(b),i),$async$oe)
+return A.v(A.aIg(A.eJ("http://127.0.0.1:8000/admin/"+a,0,null),B.c4.kk(b),i),$async$oe)
 case 7:m=d
 k=n.r1(m)
 p=2
@@ -92384,7 +92384,7 @@ j=t.N
 i=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*","Authorization","Bearer "+A.aDM()],j,j)
 p=4
 s=7
-return A.v(A.b5u(A.eJ("https://gchamp.leadturtle.in/admin/"+a,0,null),B.c4.kk(b),i),$async$q0)
+return A.v(A.b5u(A.eJ("http://127.0.0.1:8000/admin/"+a,0,null),B.c4.kk(b),i),$async$q0)
 case 7:m=d
 k=n.r1(m)
 p=2
@@ -92411,7 +92411,7 @@ j=t.N
 i=A.a7(["Content-Type","application/json","Access-Control_Allow_Origin","*","Authorization","Bearer "+A.aDM()],j,j)
 p=4
 s=7
-return A.v(A.aQX(A.eJ("https://gchamp.leadturtle.in/admin/"+a,0,null),i),$async$rP)
+return A.v(A.aQX(A.eJ("http://127.0.0.1:8000/admin/"+a,0,null),i),$async$rP)
 case 7:m=c
 k=n.r1(m)
 p=2
@@ -93619,7 +93619,7 @@ else if(s===B.aB){n=n.b
 n.toString
 if(J.f8(n)){n=q.f.b
 n.toString
-n=new A.BI(q,n,r)}else n=A.bs(A.ax("No Order Found!",A.as().$3$color$fontSize$fontWeight(B.x,18,B.F)),r,r)}else{n=n.c
+n=new A.BI(q,n,r)}else n=A.bs(A.ax("No Franchise Found!",A.as().$3$color$fontSize$fontWeight(B.x,18,B.F)),r,r)}else{n=n.c
 n.toString
 n=A.bs(A.ax(n,A.as().$3$color$fontSize$fontWeight(B.x,18,B.F)),r,r)}return A.Q(r,A.vZ(A.a([new A.bz(B.ft,l,r),m,n],k),r,r,!1),B.f,r,r,new A.aJ(B.bA,r,o,p,r,r,B.v),r,800,B.au,B.fs,r,r,r)}}
 A.aBr.prototype={
