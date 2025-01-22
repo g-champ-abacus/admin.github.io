@@ -92834,7 +92834,7 @@ j=t.N
 i=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*"],j,j)
 p=4
 s=7
-return A.q(A.aJc(A.eL("http://127.0.0.1:8000/admin/otp/send",0,null),B.c4.km(A.a6(["email",a],j,j)),i),$async$ia)
+return A.q(A.aJc(A.eL("https://gchamp.leadturtle.in/admin/otp/send",0,null),B.c4.km(A.a6(["email",a],j,j)),i),$async$ia)
 case 7:m=c
 k=n.r4(m)
 p=2
@@ -92861,7 +92861,7 @@ k=t.N
 j=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*"],k,k)
 p=4
 s=7
-return A.q(A.aJc(A.eL("http://127.0.0.1:8000/admin/otp/verify",0,null),B.c4.km(A.a6(["email",a.h(0,"email"),"otp",a.h(0,"otp")],k,t.z)),j),$async$mR)
+return A.q(A.aJc(A.eL("https://gchamp.leadturtle.in/admin/otp/verify",0,null),B.c4.km(A.a6(["email",a.h(0,"email"),"otp",a.h(0,"otp")],k,t.z)),j),$async$mR)
 case 7:n=c
 k=n
 l=B.c4.eR(0,A.aIZ(A.aIy(k.e).c.a.h(0,"charset")).eR(0,k.w))
@@ -92890,7 +92890,7 @@ i=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*","Aut
 p=4
 A.f9(a)
 s=7
-return A.q(A.aRf(A.eL("http://127.0.0.1:8000/admin/"+a,0,null),i),$async$jY)
+return A.q(A.aRf(A.eL("https://gchamp.leadturtle.in/admin/"+a,0,null),i),$async$jY)
 case 7:m=c
 k=n.r4(m)
 p=2
@@ -92917,7 +92917,7 @@ j=t.N
 i=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*"],j,j)
 p=4
 s=7
-return A.q(A.aRf(A.eL("http://127.0.0.1:8000/user/"+a,0,null),i),$async$ql)
+return A.q(A.aRf(A.eL("https://gchamp.leadturtle.in/user/"+a,0,null),i),$async$ql)
 case 7:m=c
 k=n.r4(m)
 p=2
@@ -92944,7 +92944,7 @@ j=t.N
 i=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*","Authorization","Bearer "+A.aEG()],j,j)
 p=4
 s=7
-return A.q(A.aJc(A.eL("http://127.0.0.1:8000/admin/"+a,0,null),B.c4.km(b),i),$async$mE)
+return A.q(A.aJc(A.eL("https://gchamp.leadturtle.in/admin/"+a,0,null),B.c4.km(b),i),$async$mE)
 case 7:m=d
 k=n.r4(m)
 p=2
@@ -92971,7 +92971,7 @@ j=t.N
 i=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*","Authorization","Bearer "+A.aEG()],j,j)
 p=4
 s=7
-return A.q(A.b6C(A.eL("http://127.0.0.1:8000/admin/"+a,0,null),B.c4.km(b),i),$async$q3)
+return A.q(A.b6C(A.eL("https://gchamp.leadturtle.in/admin/"+a,0,null),B.c4.km(b),i),$async$q3)
 case 7:m=d
 k=n.r4(m)
 p=2
@@ -92998,7 +92998,7 @@ j=t.N
 i=A.a6(["Content-Type","application/json","Access-Control_Allow_Origin","*","Authorization","Bearer "+A.aEG()],j,j)
 p=4
 s=7
-return A.q(A.aRV(A.eL("http://127.0.0.1:8000/admin/"+a,0,null),i),$async$rT)
+return A.q(A.aRV(A.eL("https://gchamp.leadturtle.in/admin/"+a,0,null),i),$async$rT)
 case 7:m=c
 k=n.r4(m)
 p=2
