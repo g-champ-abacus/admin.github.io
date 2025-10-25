@@ -1,11 +1,11 @@
 {
-    "name": "code_dev",
-    "short_name": "code_dev",
+    "name": "GChamp Admin",
+    "short_name": "GChamp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "GChamp Admin Dashboard for managing educational content and students.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
